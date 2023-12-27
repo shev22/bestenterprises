@@ -11,8 +11,11 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+ @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Poppins", sans-serif;
 }
@@ -21,7 +24,7 @@
 :root {
   --color-default: #0a0d13;
   --color-primary: #0d42ff;
-  --color-secondary: #0e1d34;
+  --color-secondary: #000000;
 }
 
 /* Smooth scroll behavior */
@@ -33,8 +36,11 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: var(--font-default);
-  color: var(--color-default);
+  /* font-family: var(--font-default); */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* color: var(--color-default); */
+  font-family:sans-serif;
+ 
 }
 
 a {
@@ -76,7 +82,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #001973;
+  color: #fff;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -90,7 +96,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: #fff;
   left: 0;
   right: 0;
   bottom: 0;
@@ -131,16 +137,18 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs .page-header {
-  padding: 140px 0 80px 0;
+  padding: 100px 0 60px 0;
   position: relative;
-  background-size: cover;
+  background-image: url("../img/giphy.gif");
+  background-size:auto;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .breadcrumbs .page-header:before {
   content: "";
-  background-color: rgba(14, 29, 52, 0.8);
+  background-color: rgba(9, 16, 28, 0.8);
   position: absolute;
   inset: 0;
 }
@@ -157,8 +165,8 @@ section {
 }
 
 .breadcrumbs nav {
-  background-color: #f3f6fc;
-  padding: 20px 0;
+  background: #2b313a;
+  padding: 15px 0;
 }
 
 .breadcrumbs nav ol {
@@ -173,7 +181,7 @@ section {
 }
 
 .breadcrumbs nav ol a {
-  color: var(--color-primary);
+  background: gray;
   transition: 0.3s;
 }
 
@@ -183,12 +191,13 @@ section {
 
 .breadcrumbs nav ol li+li {
   padding-left: 10px;
+  color: whitesmoke;
 }
 
 .breadcrumbs nav ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4278cc;
+  color: #4678ca;
   content: "/";
 }
 
@@ -307,6 +316,8 @@ section {
   font-family: var(--font-primary);
 }
 
+
+
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
@@ -367,7 +378,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #a5b3e7;
   }
 
   .navbar .dropdown ul {
@@ -849,6 +860,8 @@ section {
 --------------------------------------------------------------*/
 .features {
   padding-top: 80px;
+  background: black;
+  
 }
 
 .features .features-item+.features-item {
@@ -864,7 +877,7 @@ section {
 .features .features-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #001973;
+  color: silver;
 }
 
 .features .features-item ul {
@@ -893,43 +906,57 @@ section {
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
+
+
 .pricing .pricing-item {
+  color: white;
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
-  background: #fff;
+  /* background: rgb(0, 0, 0); */
   height: 100%;
   border-top: 4px solid #fff;
   border-radius: 5px;
+ 
+}
+.pricing .pricing-item:hover {
+  background: rgb(63, 45, 68);
+  border-top: 8px solid rgb(255, 194, 255);
+
 }
 
 .pricing h3 {
+  color: #fff;
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 20px;
-  color: var(--color-secondary);
+
 }
 
 .pricing h4 {
+  color: #fff;
   font-size: 48px;
-  color: var(--color-primary);
   font-weight: 400;
   font-family: var(--font-primary);
   margin-bottom: 25px;
 }
 
 .pricing h4 sup {
+  color: #fff;
   font-size: 28px;
+
 }
 
 .pricing h4 span {
-  color: rgba(108, 117, 125, 0.8);
+
+  color: #fff;
   font-size: 18px;
 }
 
 .pricing ul {
+ 
   padding: 20px 0;
   list-style: none;
-  color: #6c757d;
+  color: #fff;
   text-align: left;
   line-height: 20px;
 }
@@ -941,17 +968,17 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #fff;
   font-size: 24px;
   padding-right: 3px;
 }
 
 .pricing ul .na {
-  color: rgba(108, 117, 125, 0.5);
+  color: #fff;
 }
 
 .pricing ul .na i {
-  color: rgba(108, 117, 125, 0.5);
+  color: #fff;
 }
 
 .pricing ul .na span {
@@ -962,26 +989,26 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 4px;
-  color: var(--color-primary);
+  color: rgb(231, 231, 231);
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: var(--font-primary);
   transition: 0.3s;
-  border: 1px solid var(--color-primary);
+  border: 1px solid purple;
 }
 
 .pricing .buy-btn:hover {
-  background: var(--color-primary);
+  background: rgb(178, 42, 178);
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: var(--color-primary);
+  border-top-color: rgb(178, 42, 178);
 }
 
 .pricing .featured .buy-btn {
-  background: var(--color-primary);
+  background: rgb(178, 42, 178);
   color: #fff;
 }
 
@@ -1392,7 +1419,7 @@ section {
 }
 
 .get-a-quote .php-email-form {
-  background: #f3f6fc;
+  background: #cee8f8;
   padding: 40px;
   height: 100%;
 }
@@ -1702,10 +1729,10 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 50vh;
+  height: 100vh;
   background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
-  background-size: cover;
+  background-image: url("../img/nft-bg.gif");
+  background-size:cover;
   background-position: center;
   position: relative;
   padding: 120px 0 60px 0;
@@ -1717,7 +1744,7 @@ section {
   padding: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #fff;
+  color: #eeeeee;
 }
 
 @media (max-width: 575px) {

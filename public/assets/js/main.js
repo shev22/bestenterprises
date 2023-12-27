@@ -150,3 +150,49 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+  loop: true
+});
+
+typewriter.typeString('Business Solutions')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('Strategic Branding in the Web3 Epoch')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('Blockchain Fusion')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('Decentralized Marketing Algorithms')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('Web3 Website Development')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString(' Optimization through Quantum Analytics')
+  .pauseFor(2500)
+  .start();
+
+
+  var app = document.getElementById('quote');
+
+var typewriter = new Typewriter(app, {
+  loop: true
+});
+
+typewriter.typeString('- 🌐 Tailored Web 3 Brilliance')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('  - 🔥 Cutting-edge Marketing Magic')
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString('  - 💡 Customized Solutions')
+  .pauseFor(2500)
+  .start();
+
+  
+

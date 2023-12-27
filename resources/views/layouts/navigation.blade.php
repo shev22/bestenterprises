@@ -101,23 +101,20 @@
 
 
 <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between ">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Logis</h1>
+        <h1>logo here</h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+      <nav id="navbar" class="navbar ">
+        <ul >
+          <li ><a href="{{ url('pricing') }}"  class="{{Request::is('pricing') ? 'active' : ''}}"><span class="text-white">Pricing</span> </a></li>
+          <li class="dropdown" ><a href="#"><span class="text-white">Capabilities</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -134,11 +131,41 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
+
+          {{-- <li><a href="{{ url('/') }}" class="{{Request::is('/') ? 'active' : ''}}">Home</a></li> --}}
+     
+
+
+          
+
+
+          <li class=" dropdown">
+            <a class=" {{Request::is('services') ? 'active' : ''}}"  href="{{ url('services') }}" >
+                <span class="text-white">Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i>
+                
+            </a>
+            <ul class="text-white" style="background: rgb(50, 30, 87);">
+              <li><a class="dropdown-item text-white" href="{{ url('services/web3') }}">Strategic Branding in the Web3 Epoch</a></li>
+              <li><a class="dropdown-item text-white" href="{{ url('services/blockchain') }}">Blockchain Fusion</a></li>
+              <li><a class="dropdown-item text-white" href="{{ url('services/marketing') }}">Decentralized Marketing Algorithms</a></li>
+              <li><a class="dropdown-item text-white" href="{{ url('services/development') }}">Web3 Website Development</a></li>
+              <li><a class="dropdown-item text-white" href="{{ url('services/education') }}">Education and Training in Quantum Web3</a></li>
+              <li><a class="dropdown-item text-white" href="{{ url('services/analytics') }}">Continuous Optimization through Quantum Analytics</a></li>
+            </ul>
+          </li>
+
+
+
+          <li><a href="{{ url('about') }}"  class="{{Request::is('about') ? 'active' : ''}}"><span class="text-white">About</span></a></li>
+          <li><a href="{{ url('contact') }}"><span class="text-white">Contact</span> </a></li>
+          <li><a class="get-a-quote" href="{{ url('getQuote') }}">Get a Quote</a></li>
         </ul>
+
+
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
   <!-- End Header -->
+
+
