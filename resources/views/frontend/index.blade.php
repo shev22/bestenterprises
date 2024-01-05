@@ -1,6 +1,5 @@
 <x-app-layout>
-<video controls src="magnet:?xt=urn:btih:91f3d3cec498eea03412a82b1ec60c9ecb187f7a&dn=Silent+Night+(2023)+%5B720p%5D+%5BWEBRip%5D+%5BYTS.MX%5D" data-path="Silent Night (2023) [720p] [WEBRip] [YTS.MX]/Silent.Night.2023.720p.WEBRip.x264.AAC-[YTS.MX].mp4"></video>
-<script src="https://cdn.jsdelivr.net/npm/@webtor/player-sdk-js/dist/index.min.js" charset="utf-8" async></script>
+
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex align-items-center">
 
@@ -379,7 +378,11 @@
             </div>
         </section><!-- End Frequently Asked Questions Section -->
 
-
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shevytv/30min'});return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->
         <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing pt-0">
             @include('frontend.sections.pricing')
