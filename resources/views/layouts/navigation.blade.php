@@ -158,7 +158,9 @@
 
           <li><a href="{{ url('about') }}"  class="{{Request::is('about') ? 'active' : ''}}"><span class="text-white">About</span></a></li>
           <li><a href="{{ url('contact') }}"><span class="text-white">Contact</span> </a></li>
-          <li><a class="get-a-quote" href="{{ url('getQuote') }}">Get a Quote</a></li>
+          {{-- <li><a class="get-a-quote" href="{{ url('getQuote') }}">Get a Quote</a></li> --}}
+
+          <a class="get-a-quote" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shevytv/30min'});return false;" role="button">Get a Quote</a>
         </ul>
 
 

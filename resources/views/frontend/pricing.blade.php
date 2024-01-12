@@ -37,7 +37,7 @@
 
 
         <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing pt-0" style="background: black">
+        <section id="pricing" class="pricing pt-0">
             @include('frontend.sections.pricing')
 
         </section>

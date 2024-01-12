@@ -18,7 +18,7 @@
               <li class="na"><i class="bi bi-x"></i> <span> - Monthly Analytics and Tweaks</span></li>
               <li class="na"><i class="bi bi-x"></i> <span>Personalized Content Creation</span></li>
             </ul>
-            <a href="#" class="buy-btn">Buy Now</a>
+            <a href="{{ url('checkout') }}" class="buy-btn">Buy Now</a>
           </div>
         </div><!-- End Pricing Item -->
 
@@ -33,7 +33,7 @@
               <li><i class="bi bi-check"></i> Monthly Analytics and Tweaks</li>
            
             </ul>
-            <a href="#" class="buy-btn">Buy Now</a>
+            <a href="{{ url('checkout') }}" class="buy-btn">Buy Now</a>
           </div>
         </div><!-- End Pricing Item -->
 
@@ -49,7 +49,7 @@
               <li><i class="bi bi-check"></i>     - Priority Support – You're the VIP!
               </li>
             </ul>
-            <a href="#" class="buy-btn">Buy Now</a>
+            <a href="{{ url('checkout') }}" class="buy-btn">Buy Now</a>
           </div>
         </div><!-- End Pricing Item -->
 

@@ -22,9 +22,9 @@
 
 /* Colors */
 :root {
-  --color-default: #0a0d13;
-  --color-primary: #0d42ff;
-  --color-secondary: #000000;
+  --color-default: rgb(4, 2, 7);
+  --color-primary: #df0dff;
+  --color-secondary: rgb(14, 6, 29);
 }
 
 /* Smooth scroll behavior */
@@ -40,6 +40,7 @@ body {
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   /* color: var(--color-default); */
   font-family:sans-serif;
+  background: var(--color-secondary);;
  
 }
 
@@ -860,7 +861,7 @@ section {
 --------------------------------------------------------------*/
 .features {
   padding-top: 80px;
-  background: black;
+
   
 }
 
@@ -919,8 +920,8 @@ section {
  
 }
 .pricing .pricing-item:hover {
-  background: rgb(63, 45, 68);
-  border-top: 8px solid rgb(255, 194, 255);
+  background: rgb(25, 23, 27);
+  border-top: 8px solid rgb(163, 157, 163);
 
 }
 
@@ -995,20 +996,20 @@ section {
   font-weight: 500;
   font-family: var(--font-primary);
   transition: 0.3s;
-  border: 1px solid purple;
+  border: 1px solid rgb(56, 3, 56);
 }
 
 .pricing .buy-btn:hover {
-  background: rgb(178, 42, 178);
+  background:  rgb(56, 3, 56);
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: rgb(178, 42, 178);
+  border-top-color:  rgb(56, 3, 56);
 }
 
 .pricing .featured .buy-btn {
-  background: rgb(178, 42, 178);
+  background:  rgb(56, 3, 56);
   color: #fff;
 }
 
