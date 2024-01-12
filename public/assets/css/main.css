@@ -369,7 +369,7 @@ section {
 
   .navbar .get-a-quote,
   .navbar .get-a-quote:focus {
-    background: var(--color-primary);
+    background: var(--color-secondary);
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 4px;
@@ -378,8 +378,8 @@ section {
 
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
-    color: #fff;
-    background: #a5b3e7;
+  
+    background: rgb(31, 8, 67);
   }
 
   .navbar .dropdown ul {
@@ -768,16 +768,20 @@ section {
 --------------------------------------------------------------*/
 .services .card {
   border: 1px solid rgba(14, 29, 52, 0.15);
-  background: #fff;
+  background: rgb(9, 4, 19);
   position: relative;
   border-radius: 0;
   height: 100%;
+
+ 
 }
 
 .services .card .card-img {
+
   overflow: hidden;
   margin-bottom: 15px;
-  border-radius: 0;
+  border-radius:  5px 5px 0 0;
+
 }
 
 .services .card .card-img img {
@@ -785,11 +789,16 @@ section {
 }
 
 .services .card h3 {
+  color:rgb(191, 189, 189);
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 5px;
   padding: 10px 30px;
   text-transform: uppercase;
+}
+
+.services .card h3 a{
+  color:rgb(191, 189, 189);
 }
 
 .services .card a {
@@ -804,7 +813,7 @@ section {
 .services .card p {
   padding: 0 30px;
   margin-bottom: 30px;
-  color: var(--color-secondary);
+  color:rgb(145, 145, 145);
   font-size: 15px;
 }
 
@@ -920,7 +929,7 @@ section {
  
 }
 .pricing .pricing-item:hover {
-  background: rgb(25, 23, 27);
+  background: rgb(8, 3, 13);
   border-top: 8px solid rgb(163, 157, 163);
 
 }
@@ -996,11 +1005,11 @@ section {
   font-weight: 500;
   font-family: var(--font-primary);
   transition: 0.3s;
-  border: 1px solid rgb(56, 3, 56);
+  border: 1px solid rgb(34, 3, 34);
 }
 
 .pricing .buy-btn:hover {
-  background:  rgb(56, 3, 56);
+  background: rgb(14, 6, 29);
   color: #fff;
 }
 

@@ -10,13 +10,13 @@
 
     <main id="main">
 
-        <!-- ======= Featured Services Section ======= -->
+        {{-- <!-- ======= Featured Services Section ======= -->
         <section id="featured-services" class="featured-services">
             @include('frontend.sections.featured-services')
-        </section><!-- End Featured Services Section -->
+        </section><!-- End Featured Services Section --> --}}
 
         <!-- ======= About Us Section ======= -->
-        <section id="about" class="about pt-0">
+        <section id="about" class="about pt-0" style="margin-top: 50px">
 
             @include('frontend.sections.about_us')
 
