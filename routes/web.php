@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ZoomController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Frontend\HomeController;
 
@@ -42,6 +43,11 @@ Route::get('contact', function () { return view('frontend.contact');});
 Route::get('checkout', function () { return view('frontend.checkout');});
 
 Route::get('getQuote', function () { return view('frontend.getQuote');});
+
+
+
+Route::get('start', [ZoomController::class, 'index']);
+Route::get('zoom-meeting-create', [ZoomController::class, 'index']);
 
 
 
