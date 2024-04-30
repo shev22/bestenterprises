@@ -13,9 +13,7 @@
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-6 text-center">
                             <h2>About</h2>
-                            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                                consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi
-                                ratione sint. Sit quaerat ipsum dolorem.</p>
+                            <p>Welcome to MetaPromo, a trailblazing force at the intersection of intellect and innovation in the dynamic world of Web3. Our commitment is to cater to a discerning audience with profound knowledge of the Web3 space, offering a transformative experience that goes beyond traditional marketing paradigms</p>
                         </div>
                     </div>
                 </div>

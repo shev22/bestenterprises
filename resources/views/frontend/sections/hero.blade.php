@@ -17,28 +17,28 @@
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="0" class="purecounter"></span>
+                <span data-purecounter-start="30" data-purecounter-end="55" data-purecounter-duration="3" class="purecounter"></span>
                 <p>Clients</p>
               </div>
             </div><!-- End Stats Item -->
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="3" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Projects</p>
               </div>
             </div><!-- End Stats Item -->
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="14" data-purecounter-end="38" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Support</p>
               </div>
             </div><!-- End Stats Item -->
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
-                <span data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="20" data-purecounter-end="51" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Workers</p>
               </div>
             </div><!-- End Stats Item -->

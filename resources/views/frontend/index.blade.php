@@ -50,7 +50,7 @@
         </section><!-- End Call To Action Section -->
 
         <!-- ======= Features Section ======= -->
-        <section id="features" class="features">
+        {{-- <section id="features" class="features">
             <div class="container">
 
                 <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
@@ -152,7 +152,7 @@
 
 
 
-        qp1ubbFo5ENQOpWG9HKYNMOUxa13I5fm
+        qp1ubbFo5ENQOpWG9HKYNMOUxa13I5fm --}}
 
 
 

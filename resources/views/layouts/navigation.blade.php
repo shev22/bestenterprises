@@ -103,10 +103,10 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between ">
 
-      <a href="/" class="logo d-flex align-items-center">
+      <a href="/" class="logo ">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>logo here</h1>
+        {{-- <img src="assets/img/logo/logo-1.png" alt="" >  --}}
+        {{-- <h1>logo here</h1> --}}
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -157,10 +157,11 @@
 
 
           <li><a href="{{ url('about') }}"  class="{{Request::is('about') ? 'active' : ''}}"><span class="text-white">About</span></a></li>
-          <li><a href="{{ url('contact') }}"><span class="text-white">Contact</span> </a></li>
+          <li><a href="{{ url('getQuote') }}"><span class="text-white">Contact</span> </a></li>
           {{-- <li><a class="get-a-quote" href="{{ url('getQuote') }}">Get a Quote</a></li> --}}
 
-          <a class="get-a-quote" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/shevytv/30min'});return false;" role="button">Get a Quote</a>
+          <a class="get-a-quote" href="
+          https://app.reclaim.ai/m/meta-promo" target="_blank" role="button">Get a Quote</a>
         </ul>
 
 

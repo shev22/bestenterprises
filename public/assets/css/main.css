@@ -23,7 +23,7 @@
 /* Colors */
 :root {
   --color-default: rgb(4, 2, 7);
-  --color-primary: #df0dff;
+  --color-primary: #6a1277;
   --color-secondary: rgb(14, 6, 29);
 }
 
@@ -182,8 +182,10 @@ section {
 }
 
 .breadcrumbs nav ol a {
-  background: gray;
+  /* background: gray; */
   transition: 0.3s;
+  text-decoration: none;
+  color: white;
 }
 
 .breadcrumbs nav ol a:hover {
@@ -305,17 +307,23 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+
+
+  /* height: 150px;
+  width: 150px;
   margin-right: 6px;
+  
+ 
+  margin-top: 5px; */
 }
 
-.header .logo h1 {
+/* .header .logo h1 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
   color: #fff;
   font-family: var(--font-primary);
-}
+} */
 
 
 
@@ -448,6 +456,8 @@ section {
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
+
+
 }
 
 @media (min-width: 1280px) {
@@ -456,6 +466,8 @@ section {
   .mobile-nav-hide {
     display: none;
   }
+
+  
 }
 
 /*--------------------------------------------------------------
@@ -579,6 +591,16 @@ section {
     background: rgba(14, 29, 52, 0.8);
     z-index: 9996;
   }
+
+  .header .logo img {
+
+   
+    height: 70px;
+    width: 70px;
+  
+  }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -648,7 +670,11 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #001f8d;
+  color: #fff;
+}
+
+.about .content p{
+  color: #cecece;
 }
 
 .about .content ul {
@@ -660,12 +686,15 @@ section {
   display: flex;
   align-items: flex-start;
   margin-top: 40px;
+
 }
+
+
 
 .about .content ul i {
   flex-shrink: 0;
   font-size: 48px;
-  color: var(--color-primary);
+  color: slateblue;
   margin-right: 20px;
   line-height: 0;
 }
@@ -673,11 +702,12 @@ section {
 .about .content ul h5 {
   font-size: 18px;
   font-weight: 700;
-  color: #19335c;
+  color: #d0d7e3;
 }
 
 .about .content ul p {
   font-size: 15px;
+  color: #ababab;
 }
 
 .about .content p:last-child {
@@ -807,7 +837,7 @@ section {
 }
 
 .services .card a:hover {
-  color: var(--color-primary);
+  color: white;
 }
 
 .services .card p {
@@ -1106,7 +1136,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/bot.gif") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1227,6 +1257,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: white;
 }
 
 .stats-counter .stats-item span:after {
@@ -1243,6 +1274,7 @@ section {
 }
 
 .stats-counter .stats-item p {
+  color: white;
   padding: 0;
   margin: 0;
   font-family: var(--font-primary);
@@ -1429,7 +1461,7 @@ section {
 }
 
 .get-a-quote .php-email-form {
-  background: #cee8f8;
+  background: #342353;
   padding: 40px;
   height: 100%;
 }
@@ -1445,6 +1477,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: rgb(223, 222, 222);
 }
 
 .get-a-quote .php-email-form h4 {
@@ -1453,11 +1486,13 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 20px 0 0 0;
+  color: rgb(223, 222, 222);
 }
 
 .get-a-quote .php-email-form p {
   font-size: 14px;
   margin-bottom: 20px;
+  color: rgb(223, 222, 222);
 }
 
 .get-a-quote .php-email-form .error-message {
@@ -1514,11 +1549,14 @@ section {
 }
 
 .get-a-quote .php-email-form input {
-  padding: 12px 15px;
+  padding: 6px 15px;
+  background: #dddddf;
+
 }
 
 .get-a-quote .php-email-form textarea {
   padding: 12px 15px;
+  background: #dddddf;
 }
 
 .get-a-quote .php-email-form button[type=submit] {
@@ -1528,6 +1566,7 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  background: #2756ff;
 }
 
 .get-a-quote .php-email-form button[type=submit]:hover {

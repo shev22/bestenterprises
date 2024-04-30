@@ -1,6 +1,5 @@
 
     <div class="container" data-aos="fade-up">
-      <a href="{{ url('start') }}">Make A Zoom Meeting Using Oauth2 And Laravel</a>
       <div class="section-header">
         <h2 >Pricing</h2>
       </div>
@@ -56,7 +55,4 @@
       </div>
 
     </div>
-    - Full-On Web 3 Strategy
-    - Boosted Social Media Presence
-    - Personalized Content Creation
-    - Monthly Analytics and Tweaks
+ 
