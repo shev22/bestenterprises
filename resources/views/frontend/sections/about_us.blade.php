@@ -10,7 +10,7 @@
                <p>
                    Our audience isn't just spectators; they are intellectual trailblazers navigating the complexities of
                    Web3. Whether you are a seasoned professional or an enthusiast diving into this dynamic landscape,
-                   [Your Company Name] is your companion in unraveling the intricacies of the blockchain, decentralized
+                   <strong>Meta Promo</strong> is your companion in unraveling the intricacies of the blockchain, decentralized
                    finance, and the myriad facets of the Web3 space. </p>
                <ul style="padding-top:40px">
                    <li data-aos="fade-up" data-aos-delay="100">

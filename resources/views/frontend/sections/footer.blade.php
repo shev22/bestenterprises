@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id=contact_us>
     <div class="row gy-4">
       <div class="col-lg-5 col-md-12 footer-info">
         <a href="index.html" class="logo d-flex align-items-center">

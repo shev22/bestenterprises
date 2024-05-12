@@ -1,4 +1,4 @@
-<x-app-layout>
+{{-- <x-app-layout>
 
 
     <main id="main">
@@ -115,4 +115,164 @@
 
     <div id="preloader"></div>
 
+</x-app-layout> --}}
+
+<x-app-layout>
+
+
+
+
+
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <div class="breadcrumbs">
+            <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/giphy.gif');">
+                <div class="container position-relative">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h2>Get a Quote</h2>
+                            <p> Get Your Quote: Unleash Your Web 3 Potential!
+                                Got big marketing dreams? We've got the strategy. Give us the deets, and let's make
+                                waves together.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <ol>
+                        <li><a href="/">Home</a></li>
+                        <li>Get a Quote</li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Breadcrumbs -->
+
+        <!-- ======= Get a Quote Section ======= -->
+        <section id="get-a-quote" class="get-a-quote">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="row g-0">
+
+                    <div class="col-lg-5 quote-bg"
+                        style="background-image: url(assets/img/quote.jpeg); border-top-left-radius:20px; border-bottom-left-radius:20px">
+                    </div>
+
+                    <div class="col-lg-7">
+                        <form action="{{ route('form') }}" method="post" class="php-email-form">
+                            @csrf
+                            <h3>Get a quote</h3>
+                            <p>What's in it for you? &nbsp;<span id="quote"></span></p>
+
+                            <div class="row gy-4">
+
+
+                                <div class="col-md-6">
+                                    <input type="text" name="website" class=" form-control rounded-3"
+                                        placeholder="Website (optional)">
+                                    @error('website')
+                                        <span class="text-danger text-sm" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+
+
+                                <div class="col-md-6">
+                                    {{-- <input type="text" name="dimensions" class="form-control" placeholder="Marketing Budget" required> --}}
+                                    <select class="form-select rounded-3" aria-label="Default select example"
+                                        name="market_budget">
+                                        <option selected>Marketing Budget</option>
+                                        <option value="0-$10,000k">$0 - $10,000</option>
+                                        <option value="$10k - $50,000">$10k - $50,000</option>
+                                        <option value="$50k - above">$50k - above</option>
+                                        <option value="Haven't decided yet.">Haven't decided yet.</option>
+                                    </select>
+                                    @error('market_budget')
+                                        <span class="text-danger text-sm" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+                                <div class="col-lg-12">
+                                    <h4>Your Personal Details</h4>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" name="name" class="form-control rounded-3"
+                                        placeholder="Name">
+                                    @error('name')
+                                        <span class="text-danger text-sm" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-md-12 ">
+                                    <input type="email" class="form-control rounded-3" name="email"
+                                        placeholder="Email" >
+                                    @error('email')
+                                        <span class="text-danger text-sm" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control rounded-3" name="phone"
+                                        placeholder="Phone (optional)">
+                                    @error('phone')
+                                        <span class="text-danger text-sm" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control rounded-3" name="text" rows="6" placeholder="Project Description"></textarea>
+                                    @error('text')
+                                        <span class="text-danger text-sm" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    {{-- <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your quote request has been sent successfully. Thank you!
+                                    </div> --}}
+
+                                    @if(Session::has('success'))
+                                    <div class="alert alert-success">
+                                       {{ Session::get('success') }}
+                                       {{-- @php
+                                           Session::forget('success');
+                                       @endphp --}}
+                                    </div>
+                                @endif
+
+                                    <button type="submit">Get a quote</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div><!-- End Quote Form -->
+
+                </div>
+
+            </div>
+        </section><!-- End Get a Quote Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+        @include('frontend.sections.footer')
+    </footer>
+    <!-- End Footer -->
 </x-app-layout>

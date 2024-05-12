@@ -70,7 +70,7 @@
 
                     <div class="col-md-6">
                       {{-- <input type="text" name="dimensions" class="form-control" placeholder="Marketing Budget" required> --}}
-                      <select class="form-select" aria-label="Default select example">
+                      <select class="form-select rounded" aria-label="Default select example">
                         <option selected>Marketing Budget</option>
                         <option value="1">$0 - $10,000</option>
                         <option value="2">$10k - $50,000/option>
@@ -91,7 +91,7 @@
                     </div>
     
                     <div class="col-md-12">
-                      <input type="text" class="form-control rounded-4" name="phone" placeholder="Phone" required>
+                      <input type="text" class="form-control rounded-4" name="phone" placeholder="Phone (optional)" >
                     </div>
     
                     <div class="col-md-12">

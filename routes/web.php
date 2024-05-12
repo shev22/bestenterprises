@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ZoomController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Frontend\HomeController;
 
@@ -42,12 +43,16 @@ Route::get('pricing', function () { return view('frontend.pricing');});
 Route::get('contact', function () { return view('frontend.contact');});
 Route::get('checkout', function () { return view('frontend.checkout');});
 
-Route::get('getQuote', function () { return view('frontend.getQuote');});
+// Route::get('quote', function () { return view('frontend.getQuote');});
+
+Route::get('quote/{path?}', function (?string $path = null) { return view('frontend.services', ['path'=>$path]);});
 
 
 
-Route::get('start', [ZoomController::class, 'index']);
-Route::get('zoom-meeting-create', [ZoomController::class, 'index']);
+// Route::get('start', [ZoomController::class, 'index']);
+// Route::get('zoom-meeting-create', [ZoomController::class, 'index']);
+
+Route::post('quote', [PagesController::class, 'store'])->name('form');
 
 
 

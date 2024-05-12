@@ -114,7 +114,7 @@
       <nav id="navbar" class="navbar ">
         <ul >
           <li ><a href="{{ url('pricing') }}"  class="{{Request::is('pricing') ? 'active' : ''}}"><span class="text-white">Pricing</span> </a></li>
-          <li class="dropdown" ><a href="#"><span class="text-white">Capabilities</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          {{-- <li class="dropdown" ><a href="#"><span class="text-white">Capabilities</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -130,7 +130,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> --}}
 
           {{-- <li><a href="{{ url('/') }}" class="{{Request::is('/') ? 'active' : ''}}">Home</a></li> --}}
      
@@ -156,8 +156,12 @@
 
 
 
+          <li role="button"><a ><span class="text-white">Contact Us</span></a></li>
+
+          
           <li><a href="{{ url('about') }}"  class="{{Request::is('about') ? 'active' : ''}}"><span class="text-white">About</span></a></li>
-          <li><a href="{{ url('getQuote') }}"><span class="text-white">Contact</span> </a></li>
+         
+          <li><a href="{{ url('contact') }}"><span class="text-white">Drop Contact</span> </a></li>
           {{-- <li><a class="get-a-quote" href="{{ url('getQuote') }}">Get a Quote</a></li> --}}
 
           <a class="get-a-quote" href="
