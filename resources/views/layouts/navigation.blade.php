@@ -156,10 +156,10 @@
 
 
 
-          <li role="button"><a ><span class="text-white">Contact Us</span></a></li>
-
+          <li role="button" id="contact-us"><a ><span class="text-white" >Contact Us</span></a></li>
+   
           
-          <li><a href="{{ url('about') }}"  class="{{Request::is('about') ? 'active' : ''}}"><span class="text-white">About</span></a></li>
+          <li><a href="{{ url('about') }}"  class="{{Request::is('about') ? 'active' : ''}}"><span class="text-white">About Us</span></a></li>
          
           <li><a href="{{ url('contact') }}"><span class="text-white">Drop Contact</span> </a></li>
           {{-- <li><a class="get-a-quote" href="{{ url('getQuote') }}">Get a Quote</a></li> --}}

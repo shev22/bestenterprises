@@ -214,7 +214,7 @@ section {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 99999;
   background: var(--color-primary);
@@ -1995,4 +1995,16 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+.contact-address{
+  background: rgb(50, 30, 87);
+  border-radius: 5px;
+  padding-left: 50px;
+  transition: 0.8s;
+  animation: 0.8s;
+  font-size: bold;
+
+
 }
