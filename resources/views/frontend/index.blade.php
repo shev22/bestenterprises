@@ -39,10 +39,10 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
                         <h3>Call To Action</h3>
-                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit anim id est laborum.</p>
-                        <a class="cta-btn" href="#">Call To Action</a>
+                        <p> Empowering businesses to thrive in the decentralized digital age - from code to conversion, we craft web3 / traditional marketing solutions that elevate brands and drive success.
+                            Get Your Quote: Unleash Your Web 3 Potential! Got big marketing dreams? <br>We've got the strategy. Give us the deets, and let's make waves together.
+                        </p>
+                        <a class="cta-btn" href=" https://app.reclaim.ai/m/meta-promo">Get Quote</a>
                     </div>
                 </div>
 

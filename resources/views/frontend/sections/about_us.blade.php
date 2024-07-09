@@ -2,8 +2,8 @@
 
        <div class="row gy-4">
            <div class="col-lg-6 position-relative align-self-start order-lg-last order-first ">
-               <img src="assets/img/about.jpg" class="img-fluid rounded" alt="">
-               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+               <img src="assets/img/education.gif" class="img-fluid rounded-3" alt="">
+               <a href="https://youtu.be/0tZFQs7qBfQ" class="glightbox play-btn"></a>
            </div>
            <div class="col-lg-6 content order-last  order-lg-first" >
                <h3>About Us</h3>
