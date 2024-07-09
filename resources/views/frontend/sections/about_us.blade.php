@@ -23,23 +23,24 @@
                                that define our decentralized future.</p>
                        </div>
                    </li>
-                   <li data-aos="fade-up" data-aos-delay="200">
-                       <i class="bi bi-fullscreen-exit"></i>
-                       <div>
-                           <h5>Navigating the Web3 Ecosystem</h5>
-                           <p>The Web3 space is vast, and navigating it requires a unique blend of knowledge and
-                               innovation. Our team, comprised of industry thought leaders and marketing maestros,
-                               brings a wealth of experience to the table. From decentralized applications (DApps) to
-                               blockchain interoperability, we guide our clients through the intricacies of the Web3
-                               ecosystem, ensuring they are well-positioned for success.</p>
-                       </div>
-                   </li>
+             
                </ul>
 
            </div>
        </div>
        <div class="content">
            <ul>
+            <li data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-fullscreen-exit"></i>
+                <div>
+                    <h5>Navigating the Web3 Ecosystem</h5>
+                    <p >The Web3 space is vast, and navigating it requires a unique blend of knowledge and
+                        innovation. Our team, comprised of industry thought leaders and marketing maestros,
+                        brings a wealth of experience to the table. From decentralized applications (DApps) to
+                        blockchain interoperability, we guide our clients through the intricacies of the Web3
+                        ecosystem, ensuring they are well-positioned for success.</p>
+                </div>
+            </li>
                <li data-aos="fade-up" data-aos-delay="300">
                    <i class="bi bi-broadcast"></i>
                    <div>
