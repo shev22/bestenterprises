@@ -18,9 +18,7 @@
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-6 text-center">
                             <h2>Services</h2>
-                            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                                consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi
-                                ratione sint. Sit quaerat ipsum dolorem.</p>
+                            <p>"Empowering businesses to thrive in the decentralized digital age - from code to conversion, we craft web3 / traditional marketing solutions that elevate brands and drive success."</p>
                         </div>
                     </div>
                 </div>
@@ -79,11 +77,9 @@
                         <img src="{{asset('assets/img/blockchain-fusion.gif')}} " class="img-fluid rounded-3" alt="">
                     </div>
                     <div class="col-md-7 order-2 order-md-1 text-secondary">
-                        <h3>Blockchain Fusion</h3>
+                        <h3>Blockchain Fusion: Elevate Your Web3 Marketing Strategy</h3>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                            Embrace the future with Blockchain Fusion and unlock the full potential of decentralized technologies.
                         </p>
                         <ul>
                             <li><i class="bi bi-disc text-secondary"></i> <b>Tokenomics Algorithm Design:</b> Utilize blockchain power through algorithmically designed tokenomics tailored strategically for your project or platform.
@@ -101,8 +97,7 @@
                     </div>
                     <div class="col-md-7 text-secondary">
                         <h3>Decentralized Marketing Algorithms</h3>
-                        <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe
-                            odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                        <p>Revolutionize Your Marketing with Cutting-Edge Decentralized Algorithms. Harness the power of Blockchain Fusion's Decentralized Marketing Algorithms to transform your marketing efforts. </p>
                             <ul>
                                 <li><i class="bi bi-disc text-secondary"></i> <b>Community Code Growth:</b> Utilize advanced algorithms to foster and cultivate a dedicated community around your brand through decentralized channels.
                                 </li>
