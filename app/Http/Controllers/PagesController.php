@@ -36,4 +36,10 @@ class PagesController extends Controller
 
       return redirect()->back()->with('success', 'Thank you for contacting metapromo');
    }
+
+   public function admin()
+   {
+      $quotes = EmailForm::all();
+      return view('frontend.admin.admin', compact('quotes'));
+   }
 }
